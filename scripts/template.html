@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{meta_description}}">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="{{canonical}}">
+  
+  <!-- Open Graph -->
+  <meta property="og:locale" content="es_VE">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{meta_description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:site_name" content="Guía Amiga">
+  <meta property="og:image" content="https://bancamaigaslogin.onrender.com/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{title}}">
+  <meta name="twitter:description" content="{{meta_description}}">
+  <meta name="twitter:image" content="https://bancamaigaslogin.onrender.com/img/og-image.png">
+  
+  <title>{{title}}</title>
+  
+  <!-- Google Fonts & DNS Prefetch -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:wght@400;500;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.min.css">
+  
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {{{page_schema}}}
+  </script>
+  
+  {{{faq_schema}}}
+  
+  <script type="application/ld+json">
+  {{{breadcrumbs_schema}}}
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="shell topbar-content">
+      <div>
+        <span class="status-dot"></span>
+        <span>PORTAL INFORMATIVO INDEPENDIENTE DE SEGURIDAD</span>
+      </div>
+      <div>
+        <span>NUNCA SOLICITAMOS CLAVES NI CONTRASEÑAS</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="shell nav">
+      <a class="logo" href="index.html" aria-label="Guía Amiga Inicio">
+        <span class="logo-symbol">G</span>
+        <span>guía<span class="logo-accent">amiga</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="bancamiga-en-linea.html" class="nav-link">Banca en Línea</a>
+        <a href="registrarse-bancamiga.html" class="nav-link">Registro</a>
+        <a href="bancamiga-zelle.html" class="nav-link">Zelle</a>
+        <a href="compra-divisas-bancamiga.html" class="nav-link">Divisas</a>
+        <a href="agencias-bancamiga.html" class="nav-link">Agencias</a>
+      </nav>
+      <a class="cta-btn" href="https://www.bancamiga.com/" target="_blank" rel="noopener noreferrer">
+        Sitio Oficial Bancamiga ↗
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú de navegación" aria-controls="mobile-drawer" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <nav class="mobile-nav-links" aria-label="Navegación móvil">
+      <a href="index.html">Inicio</a>
+      <a href="bancamiga-en-linea.html">Banca en Línea</a>
+      <a href="registrarse-bancamiga.html">Registro</a>
+      <a href="bancamiga-zelle.html">Zelle</a>
+      <a href="compra-divisas-bancamiga.html">Divisas</a>
+      <a href="agencias-bancamiga.html">Agencias</a>
+    </nav>
+    <a class="cta-btn" href="https://www.bancamiga.com/" target="_blank" rel="noopener noreferrer" style="margin-top: 20px; justify-content: center;">
+      Sitio Oficial Bancamiga ↗
+    </a>
+  </div>
+
+  <main id="contenido">
+    
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-bg-shapes">
+        <div class="glow-orb glow-1"></div>
+        <div class="glow-orb glow-2"></div>
+      </div>
+      <div class="shell hero-layout">
+        <div class="hero-content">
+          <nav class="breadcrumbs" aria-label="Breadcrumb" style="font-family: var(--font-mono); font-size: 11px; margin-bottom: 15px; color: var(--text-muted);">
+            {{{breadcrumbs_html}}}
+          </nav>
+          <h1>{{{h1}}}</h1>
+          <p class="hero-text">
+            {{{introduction}}}
+          </p>
+          
+          <div class="hero-actions">
+            <a class="btn-primary" href="https://www.bancamiga.com/" target="_blank" rel="noopener noreferrer">
+              Ir al Sitio Oficial Bancamiga ↗
+            </a>
+            <a class="btn-secondary" href="#guia-detalle">
+              Leer Guía Completa ↓
+            </a>
+          </div>
+        </div>
+        
+        <!-- Hero Graphic (Orbital / Shield) -->
+        <div class="hero-art-container" aria-hidden="true">
+          <div class="orbit-ring ring-1"></div>
+          <div class="orbit-ring ring-2"></div>
+          <div class="orb-shield">
+            <svg viewBox="0 0 24 24">
+              <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,11.99H19C18.47,16.11 15.72,19.78 12,20.93V12H5V6.3L12,3.19V11.99Z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="section" id="guia-detalle">
+      <div class="shell">
+        <div class="layout-content-sidebar" style="display: grid; grid-template-columns: 1fr; gap: 40px; align-items: start;">
+          
+          <!-- Article Content -->
+          <article class="article-body">
+            {{{main_content}}}
+            
+            {{#if has_faq}}
+            <!-- FAQ Accordion section inside content -->
+            <div class="faq-section-wrapper" style="margin-top: 50px;">
+              <h2 style="margin-bottom: 25px;">Preguntas Frecuentes Relacionadas</h2>
+              <div class="faq-accordion">
+                {{{faq_html}}}
+              </div>
+            </div>
+            {{/if}}
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Warnings notice banner -->
+    <section class="shell">
+      <div class="warning-banner" style="margin-top: 20px; margin-bottom: 40px;">
+        <div class="warning-icon">⚠</div>
+        <div class="warning-text">
+          <h4>Aviso Importante sobre Seguridad</h4>
+          <p>
+            Guía Amiga no recopila información bancaria de ningún tipo. No proveemos servicios financieros, no realizamos trámites de cuentas ni vendemos divisas. Esta página web sirve exclusivamente como un canal informativo independiente para guiar a los usuarios a navegar de forma segura por el ciberespacio.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Articles Section (Internal Linking Silo) -->
+    <section class="section" style="background: rgba(11, 19, 43, 0.15); border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
+      <div class="shell">
+        <h2 style="margin-bottom: 25px; text-align: center;">Guías y Tutoriales Relacionados</h2>
+        <div class="steps-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+          {{{related_links_html}}}
+        </div>
+      </div>
+    </section>
+
+    <!-- Site directory linking -->
+    <section class="section seo-directory" id="directorio-seo">
+      <div class="shell">
+        <div class="section-head" style="margin-bottom: 30px;">
+          <div class="section-kicker">Índice y Consultas Frecuentes</div>
+          <h2>Directorio de Búsquedas e Información</h2>
+          <p>Accede directamente a la información de tu interés. Este índice asocia las principales consultas de búsqueda en internet sobre servicios bancarios y seguridad digital.</p>
+        </div>
+        
+        <div class="seo-grid">
+          <!-- Columna 1: Acceso e Inicio -->
+          <div class="seo-col">
+            <h3>Acceso y Portales</h3>
+            <p class="seo-col-desc">Guía informativa y enlaces seguros para ingresar a la banca por internet personas y empresas.</p>
+            <ul class="seo-links">
+              <li><a href="bancamiga-en-linea.html" title="Acceso al portal oficial de Bancamiga en línea">Bancamiga en línea personas</a></li>
+              <li><a href="index.html" title="Guía de inicio seguro Bancamiga">Guía de acceso inicio seguro</a></li>
+            </ul>
+          </div>
+          
+          <!-- Columna 2: Registro y Afiliación -->
+          <div class="seo-col">
+            <h3>Registro y Gestión</h3>
+            <p class="seo-col-desc">Pasos de afiliación en línea para registrarse por primera vez de forma correcta y sin riesgos.</p>
+            <ul class="seo-links">
+              <li><a href="registrarse-bancamiga.html" title="Cómo registrarse en Bancamiga">Bancamiga registrarse en línea</a></li>
+              <li><a href="registrarse-bancamiga.html" title="Instrucciones para afiliarse a Bancamiga">Afiliarse por primera vez</a></li>
+            </ul>
+          </div>
+          
+          <!-- Columna 3: Servicios Financieros y Tarjetas -->
+          <div class="seo-col">
+            <h3>Servicios y Tarjetas</h3>
+            <p class="seo-col-desc">Información sobre tarjetas de débito/crédito Mastercard, aplicación móvil y puntos de venta.</p>
+            <ul class="seo-links">
+              <li><a href="bancamiga-mastercard.html" title="Uso de Mastercard Bancamiga">Mastercard Bancamiga digital</a></li>
+              <li><a href="bancamiga-mastercard.html" title="Aplicación móvil bancamiga suite">Bancamiga Suite móvil</a></li>
+            </ul>
+          </div>
+          
+          <!-- Columna 4: Divisas, Zelle y Corresponsales -->
+          <div class="seo-col">
+            <h3>Divisas y Cuentas</h3>
+            <p class="seo-col-desc">Cómo activar los servicios de Zelle, vincular cuentas con PayPal y comprar dólares en mesa de cambio.</p>
+            <ul class="seo-links">
+              <li><a href="bancamiga-zelle.html" title="Servicios de Zelle en Bancamiga">Activar Zelle en Bancamiga</a></li>
+              <li><a href="bancamiga-paypal.html" title="Asociar paypal bancamiga">Asociar PayPal a cuenta</a></li>
+              <li><a href="compra-divisas-bancamiga.html" title="Pasos para compra de divisas en bancamiga">Compra de divisas en línea</a></li>
+            </ul>
+          </div>
+          
+          <!-- Columna 5: Direcciones Web y Red -->
+          <div class="seo-col">
+            <h3>Direcciones y Red</h3>
+            <p class="seo-col-desc">Directorio de sucursales a nivel nacional, agencias principales y canales de contacto autorizados.</p>
+            <ul class="seo-links">
+              <li><a href="agencias-bancamiga.html" title="Listado de agencias Bancamiga">Ubicación de agencias oficiales</a></li>
+              <li><a href="directorio.html" title="Directorio de guías de Guía Amiga" style="font-weight: bold; color: var(--accent);">Directorio Completo de Guías →</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="shell footer-layout">
+      <div class="footer-disclaimer">
+        <b>Descargo de Responsabilidad Legal</b>
+        <p>
+          Este sitio web tiene un propósito exclusivamente pedagógico e informativo de seguridad digital. El nombre "Bancamiga", marcas registradas, logotipos y productos comerciales asociados son propiedad exclusiva de Bancamiga Universal C.A. y sus respectivos dueños. No tenemos relación comercial directa ni representación oficial del banco.
+        </p>
+      </div>
+      <div>
+        <a class="footer-logo" href="index.html">
+          G<span>guíaamiga</span>
+        </a>
+        <p style="margin-top: 6px;">&copy; 2026 Guía Amiga &middot; Todos los derechos reservados.</p>
+        <p>Navegación segura y responsable en internet.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.min.js"></script>
+</body>
+</html>
